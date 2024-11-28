@@ -1,0 +1,235 @@
+/* reset.css 기본 설정 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* 전체 레이아웃 */
+main {
+    background: linear-gradient(90deg, #FFF2FF, #FFDAFE);
+    padding: 20px;
+    text-align: center;
+    color: #333;
+}
+
+main h1 {
+    font-size: 48px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+main ul.top,
+main ul.bottom {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+main ul.bottom li {
+    padding: 0 10px;
+}
+
+/* summary section */
+section.summary {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF2FF;
+}
+
+section.summary p {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+section.summary span {
+    display: block;
+    color: #666;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section.summary .blocks {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+section.summary .blocks li {
+    width: 20px;
+    height: 20px;
+    background-color: #FFDAFE;
+}
+
+/* skills section */
+section.skills {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+section.skills h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+section.skills .cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+section.skills .card1,
+section.skills .card2,
+section.skills .card3 {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: left;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section.skills .title h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+section.skills .title p {
+    color: #666;
+}
+
+/* career section */
+section.career {
+    padding: 40px 20px;
+    background-color: #111;
+    color: #fff;
+    text-align: center;
+}
+
+section.career .black {
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #000;
+    width: 80%;
+    margin: 0 auto;
+}
+
+section.career h3 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section.career p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+section.career .img_box1,
+section.career .img_box2,
+section.career .img_box3,
+section.career .img_box4,
+section.career .img_box5,
+section.career .img_box6 {
+    width: 100px;
+    height: 100px;
+    background-color: #333;
+    margin: 10px;
+    display: inline-block;
+}
+
+/* artwork section */
+section.artwork {
+    padding: 40px 20px;
+    background-color: #f2f2f2;
+    text-align: center;
+}
+
+section.artwork b {
+    font-size: 32px;
+}
+
+section.artwork .img_box {
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+    background-color: #ddd;
+    margin: 20px auto;
+}
+
+/* strength section */
+section.strength {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #FFF2FF;
+}
+
+section.strength h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section.strength p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+section.strength span {
+    font-size: 50px;
+    font-weight: bold;
+    color: #FF69B4;
+}
+
+section.strength .st1,
+section.strength .st2,
+section.strength .st3,
+section.strength .st4,
+section.strength .st5,
+section.strength .st6 {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 8px;
+    background-color: #FFDAFE;
+    color: #333;
+    font-weight: bold;
+}
+
+/* contact section */
+section.picture {
+    padding: 40px 20px;
+    background: linear-gradient(90deg, #FFF2FF, #FFDAFE);
+    text-align: center;
+}
+
+section.picture h3 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+section.picture b {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+section.picture ul.img_box {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+section.picture ul.img_box li {
+    width: 200px;
+    height: 200px;
+    background-color: #333;
+}
